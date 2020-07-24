@@ -1,0 +1,201 @@
+body{
+
+  background: #E9EEED;
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+form.contact-form {
+  background: white;
+  width: 100%;
+  max-width: 380px;
+  margin: 10px auto;
+  font-size: 15.5px;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  line-height: 25.079px;
+  letter-spacing: -0.5px;
+  -webkit-transition: box-shadow 0.4s ease;
+  transition: box-shadow 0.4s ease;
+  box-shadow: 0px 2px 10px black;
+}
+form.contact-form:hover {
+  box-shadow: 0px 4px 14px black, 0px 0px 6px black;
+}
+form.contact-form span {
+  text-align: center;
+  display: block;
+  color: #333;
+  padding: 19.375px 19.375px 7.75px;
+  font: inherit;
+  font-size: 25.079px;
+}
+form.contact-form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+form.contact-form ul li {
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+form.contact-form ul li i.form-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2%;
+  text-align: center;
+  margin: 0 0.5% 0 1%;
+  padding: 0;
+  font-size: 16.275px;
+  color: #aaa;
+}
+form.contact-form ul li input[type="text"] {
+  width: 90%;
+  background: none;
+  margin: 0;
+  padding: 10.33333385px 2%;
+  border: 0;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  text-align: left;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  -webkit-transition: border-bottom 0.35s ease;
+  transition: border-bottom 0.35s ease;
+}
+form.contact-form ul li input[type="text"]:focus {
+  outline: none;
+  border-bottom: 3px solid #4d90fe;
+}
+form.contact-form ul li input[type="text"]::-webkit-input-placeholder {
+  -webkit-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li input[type="text"]:-moz-placeholder {
+  -webkit-transition: color 0.35s ease;
+  -moz-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li input[type="text"]::-moz-placeholder {
+  -webkit-transition: color 0.35s ease;
+  -moz-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li input[type="text"]:-ms-input-placeholder {
+  -webkit-transition: color 0.35s ease;
+  -ms-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li input[type="text"]:focus::-webkit-input-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li input[type="text"]:focus:-moz-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li input[type="text"]:focus::-moz-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li input[type="text"]:focus:-ms-input-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li textarea {
+  display: inline-block;
+  vertical-align: top;
+  width: 88%;
+  background: none;
+  padding: 10.33333385px 2%;
+  resize: none;
+  border: 0;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  text-align: left;
+  height: auto;
+  min-height: 133px;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  -webkit-transition: border-bottom 0.35s ease;
+  transition: border-bottom 0.35s ease;
+}
+form.contact-form ul li textarea:focus {
+  outline: none;
+  border-bottom: 3px solid #4d90fe;
+}
+form.contact-form ul li textarea::-webkit-scrollbar {
+  width: 4px;
+}
+form.contact-form ul li textarea::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 2px;
+}
+form.contact-form ul li textarea::-webkit-input-placeholder {
+  -webkit-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li textarea:-moz-placeholder {
+  -webkit-transition: color 0.35s ease;
+  -moz-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li textarea::-moz-placeholder {
+  -webkit-transition: color 0.35s ease;
+  -moz-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li textarea:-ms-input-placeholder {
+  -webkit-transition: color 0.35s ease;
+  -ms-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+  color: #ccc;
+}
+form.contact-form ul li textarea:focus::-webkit-input-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li textarea:focus:-moz-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li textarea:focus::-moz-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li textarea:focus:-ms-input-placeholder {
+  color: #4d90fe;
+}
+form.contact-form ul li input[type="submit"] {
+  margin: 15px auto 15px;
+  padding: 10.33333385px 19.375px;
+  border: 1px solid #d0d0d0;
+  display: inline-block;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0);
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-transition: background border 0.35s ease;
+  transition: background border 0.35s ease;
+}
+form.contact-form ul li input[type="submit"]:focus {
+  outline: none;
+  border: 1px solid #4d90fe;
+}
+form.contact-form ul li input[type="submit"]:hover {
+  background: #eaeaea;
+  border: 1px solid #4d90fe;
+}
+form.contact-form ul li input[type="submit"]:active {
+  background: #d0d0d0;
+}

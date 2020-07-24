@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 300 14px/18px Roboto;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Krona One";
+    text-align: center;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 50px 100px 0px 100px;
+}
+
+.exo-menu {
+    width: 1000px;
+    list-style: none;
+    right: -15%;
+    position: relative;
+    background: #cccc;
+}
+
+.exo-menu>li {
+    display: inline-block;
+    float: left;
+}
+
+.exo-menu>li>a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 2px #000 dotted;
+    -webkit-transition: color 0.2s linear, background 0.2s linear;
+    -moz-transition: color 0.2s linear, background 0.2s linear;
+    -o-transition: color 0.2s linear, background 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear;
+}
+
+a:hover {
+    background-color: #4d90fe;
+}
+
+.exo-menu i {
+    float: left;
+    font-size: 18px;
+    margin-right: 56px;
+    line-height: 20px !important;
+}
+
+
+/*responsive*/
+
+@media (min-width: 767px) {
+    .exo-menu>li>a {
+        display: block;
+        padding: 20px 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .exo-menu {
+        min-height: 58px;
+        background-color: #cccc;
+        width: 100%;
+    }
+    .exo-menu>li>a {
+        width: 100%;
+        display: none;
+    }
+    .exo-menu>li {
+        width: 100%;
+    }
+    .display.exo-menu>li>a {
+        display: block;
+        padding: 20px 22px;
+    }
+}
+
+a.toggle-menu {
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+    font-size: 27px;
+    background-color: #ccc;
+    color: #000;
+    top: 0px;
+}
